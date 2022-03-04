@@ -10,6 +10,13 @@ This script in particular reveals a nodes ports number and status for now.
 ## Installation
 - Install Python3
 
+## Usage
+- script -i ip_address -p port_range -t type_scan
+  - Legend
+    - ip_address = 192.168.1.60
+    - port_range = 1-1024
+    - type_Scan = TCP Scan
+
 ## Scans
 
 ### TCP Scan
