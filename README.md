@@ -1,18 +1,22 @@
 *This Script is for educational purposes only*
 
 # Scanner
+-------------------------------------------------------------------------------------------------
 Evolving network scanner based on the namp library
 
 ## Description
+-------------------------------------------------------------------------------------------------
 Nmap is one of the most well known tools in a hackers arsenal. 
 Although it can be powerful it's quite simple in terms of architecture. 
 
 This script in particular reveals a nodes ports number and status for now. 
 
 ## Installation
+-------------------------------------------------------------------------------------------------
 - Install Python3
 
 ## Usage
+-------------------------------------------------------------------------------------------------
 - script -i ip_address -p port_range -t type_scan
   - Legend
     - ip_address = 192.168.1.60
@@ -20,7 +24,7 @@ This script in particular reveals a nodes ports number and status for now.
     - type_Scan = TCP Scan
 
 ## Scans
-
+---------------------------------------------------------------------------------------------
 ### TCP Scan
 A standard scan that send a TCP to node with a SYN flag set. 
 
@@ -40,5 +44,10 @@ With a fin Scan the FIN flag is set, giving a smilar to result as the Null Scan 
 
 ### Xmas Scan
 The Xmas scan has PSH, URG and FIN flags set, resulting in RST response from a closed port. 
+
+## Version History
+-------------------------------------------------------------------------------------------------
+- 0.1 
+  - Initial Release
 
 
