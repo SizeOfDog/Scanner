@@ -1,3 +1,5 @@
+*This Script is for educational purposes only*
+
 # Scanner
 Evolving network scanner based on the namp library
 
